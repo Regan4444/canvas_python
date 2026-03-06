@@ -21,8 +21,8 @@ import requests
 # -----------------------------
 # HARD-CODE THESE
 # -----------------------------
-CANVAS_DOMAIN = "https://grayson.instructure.com"
-CANVAS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_DOMAIN = "paste domain here"
+CANVAS_TOKEN = "paste token here"
 
 CENTRAL_TZ = ZoneInfo("America/Chicago")
 
@@ -257,4 +257,5 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+
     main()
