@@ -4,11 +4,11 @@ from datetime import datetime, timezone
 # ---------------------------
 # CONFIG
 # ---------------------------
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-BASE_URL = "https://grayson.instructure.com"
+API_TOKEN = "paste token here"
+BASE_URL = "paste domain here"
 
-COURSE_ID = 44413                  # Canvas numeric course id
-STUDENT_SIS_ID = "10112767432"     # e.g. "A1234567"
+COURSE_ID = 000000                  # Canvas numeric course id
+STUDENT_SIS_ID = "0000000000"     # e.g. "A1234567"
 
 HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 
@@ -139,4 +139,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
