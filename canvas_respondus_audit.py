@@ -23,7 +23,7 @@ from urllib.parse import urljoin
 # HARD-CODED CONFIG
 # =====================================================
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
+CANVAS_BASE_URL = "paste domain here"
 
 # >>>>>>>>> PUT YOUR TOKEN HERE <<<<<<<<<
 CANVAS_TOKEN = "4480~PUT_YOUR_REAL_TOKEN_HERE"
@@ -425,3 +425,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
