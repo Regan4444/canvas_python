@@ -1,8 +1,8 @@
 import requests
 
-DOMAIN = "https://grayson.instructure.com"
-ADMIN_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU".strip()
-AUTO_USER_ID = 70952  # Canvas user ID for the automation account
+DOMAIN = "paste domain here"
+ADMIN_TOKEN = "paste token here".strip()
+AUTO_USER_ID = 00000  # Canvas user ID for the automation account
 
 headers = {"Authorization": f"Bearer {ADMIN_TOKEN}"}
 
@@ -15,4 +15,5 @@ data = {
 
 r = requests.post(url, headers=headers, data=data, timeout=30)
 print("status:", r.status_code)
+
 print("body:", r.text[:1200])
