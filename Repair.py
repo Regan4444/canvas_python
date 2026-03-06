@@ -3,8 +3,7 @@
 Move all Canvas courses whose course_code starts with "HUMA" into subaccount ID 169,
 and VERIFY each move by re-reading the course and checking account_id.
 
-Hard-coded domain: https://grayson.instructure.com
-Hard-coded target subaccount: 169
+
 """
 
 import sys
@@ -12,9 +11,9 @@ import time
 import requests
 
 # ====== HARD-CODE THESE ======
-CANVAS_DOMAIN = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-TARGET_SUBACCOUNT_ID = 169
+CANVAS_DOMAIN = "paste domain here"
+TOKEN = "paste token here"
+TARGET_SUBACCOUNT_ID = 000  #paste in the target sub
 ROOT_ACCOUNT_ID = 1  # change if needed
 # ============================
 
@@ -192,4 +191,5 @@ def main():
         sys.exit(2)
 
 if __name__ == "__main__":
+
     main()
