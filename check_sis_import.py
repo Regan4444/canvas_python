@@ -19,8 +19,8 @@ from typing import Any, Dict, List, Optional, Tuple
 # ---------------------------
 # CONFIG (edit these)
 # ---------------------------
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"  # You can hard-code it here
+CANVAS_BASE_URL = "paste domain here"
+API_TOKEN = "paste your token here"  # You can hard-code it here
 ACCOUNT_ID = "1"  # root account is often 1; set yours as needed
 
 # How many recent imports to fetch (Canvas paginates; script handles pagination)
@@ -33,7 +33,7 @@ CSV_EXPORT_PATH = ""  # e.g. "sis_imports_status.csv"
 # ---------------------------
 # TIME HELPERS
 # ---------------------------
-CENTRAL_TZ = ZoneInfo("America/Chicago")
+CENTRAL_TZ = ZoneInfo("America/Chicago")  #  This code is designed for Central standard time in the US
 
 def parse_canvas_iso8601(ts: Optional[str]) -> Optional[datetime]:
     """Parse Canvas ISO8601 timestamps (usually UTC, sometimes ends with 'Z')."""
@@ -250,4 +250,5 @@ def main() -> int:
     return 0
 
 if __name__ == "__main__":
+
     sys.exit(main())
