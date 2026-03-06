@@ -5,8 +5,8 @@
 
 import os, time, zipfile, io, requests
 
-BASE  = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+BASE  = "paste domain here"
+TOKEN = "paste token here"
 
 COURSE_ID = 43637
 QUIZ_ID   = 239874
@@ -124,3 +124,4 @@ if __name__ == "__main__":
     )
     print(f"[done] import attempted into "
           f"{'bank ID '+str(QUESTION_BANK_ID) if QUESTION_BANK_ID else 'bank '+repr(QUESTION_BANK_NAME)}")
+
