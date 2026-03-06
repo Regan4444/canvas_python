@@ -1,9 +1,9 @@
 import requests, json
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"
+API_TOKEN = "paste token here"
 ACCOUNT_ID = "1"
-IMPORT_ID = 382096
+IMPORT_ID = 000000  # paste in your import id
 
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
@@ -28,4 +28,5 @@ for k in ["user_id", "sis_importer_id", "created_by", "initiated_by", "user"]:
         print(k, "=", data.get(k))
 
 print("\nFull record (first 2000 chars):")
+
 print(json.dumps(data, indent=2)[:2000])
