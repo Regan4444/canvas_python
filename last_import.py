@@ -1,9 +1,9 @@
 import requests, json
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"
+API_TOKEN = "paste token here"
 ACCOUNT_ID = "1"
-LAST_IMPORT_ID = 382096
+LAST_IMPORT_ID = 0000   #  paste the import id you wish to search for here
 
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
@@ -14,4 +14,5 @@ data = r.json()
 
 print("workflow_state:", data.get("workflow_state"))
 print("\nDATA BLOCK:")
+
 print(json.dumps(data.get("data", {}), indent=2)[:4000])
