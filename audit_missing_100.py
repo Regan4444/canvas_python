@@ -17,12 +17,12 @@ from typing import Dict, Any, List, Optional
 
 
 # ====== EDIT THESE ======
-BASE_URL = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+BASE_URL = "paste domain here"
+TOKEN = "paste token here"
 ROOT_ACCOUNT_ID = 1
 
 # Set this to the enrollment_term_id for the semester you want to audit
-TERM_ID = 729  # <-- CHANGE ME (e.g., 123)
+TERM_ID = 000  # <-- CHANGE ME (e.g., 123)
 # =======================
 
 
@@ -157,3 +157,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
