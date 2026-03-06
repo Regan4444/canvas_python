@@ -3,11 +3,11 @@ import csv
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste your domain here"
+API_TOKEN = "paste your token here"
 ACCOUNT_ID = "1"
 
-OUTPUT_FILE = r"C:\Users\Owner\Documents\Python Scripts\sis_import_status.csv"
+OUTPUT_FILE = r"C:\Users\Owner\Documents\Python Scripts\sis_import_status.csv"  #  enter the path to the csv file you wish to log to.
 
 # nightly jobs → allow up to 36 hours
 MAX_AGE_HOURS = 36
@@ -83,5 +83,6 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as f:
 
     for r in rows:
         writer.writerow(r)
+
 
 print("Report written to:", OUTPUT_FILE)
