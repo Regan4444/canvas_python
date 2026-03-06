@@ -1,8 +1,8 @@
 import requests
 
-DOMAIN = "https://grayson.instructure.com"
-ADMIN_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-USER_ID = "70952"
+DOMAIN = "paste domain here"
+ADMIN_TOKEN = "paste a working token here"
+USER_ID = "paste user ID here for the token you wish to create"
 
 headers = {
     "Authorization": f"Bearer {ADMIN_TOKEN}"
@@ -20,4 +20,5 @@ r = requests.post(
 )
 
 print(r.status_code)
+
 print(r.json())
