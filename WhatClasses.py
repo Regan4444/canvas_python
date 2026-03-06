@@ -4,9 +4,9 @@
 import csv, sys, time, requests
 
 # ========= CONFIG (EDIT THESE) =========
-CANVAS_DOMAIN = "https://grayson.instructure.com"
-ACCESS_TOKEN  = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-STUDENT_REF   = "37704"  # numeric ID, "sis:ID", or "login:user"
+CANVAS_DOMAIN = "paste domain here"
+ACCESS_TOKEN  = "token"
+STUDENT_REF   = "000000"  # numeric ID, "sis:ID", or "login:user"
 
 # ========= HTTP helpers =========
 def sess():
@@ -193,3 +193,4 @@ if __name__ == "__main__":
         sys.exit(f"HTTP error: {e}")
     except requests.RequestException as e:
         sys.exit(f"Network error: {e}")
+
