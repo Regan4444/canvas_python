@@ -23,10 +23,10 @@ from typing import Iterator, Dict, Any, List, Optional, Tuple
 
 
 # ========= USER CONFIG (edit these 4) =========
-CANVAS_BASE_URL = "https://grayson.instructure.com"  # <-- no trailing slash
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"                     # <-- your token
-COURSE_ID = 43637                                    # <-- course numeric ID
-ASSIGNMENT_ID = 856315                               # <-- assignment numeric ID
+CANVAS_BASE_URL = "paste domain here"  # <-- no trailing slash
+TOKEN = "paste token here"                     # <-- your token
+COURSE_ID = 000000                                    # <-- course numeric ID
+ASSIGNMENT_ID = 0000000                               # <-- assignment numeric ID
 # ==============================================
 
 
@@ -397,3 +397,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
