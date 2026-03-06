@@ -12,8 +12,8 @@ from datetime import datetime, timezone
 from dateutil import parser as dateparser
 import requests
 
-BASE_URL = "https://grayson.instructure.com/"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+BASE_URL = "paste domain here"
+TOKEN = "paste token here"
 RATE_SLEEP = 0.15
 
 def iso(dt_str):
@@ -123,3 +123,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
