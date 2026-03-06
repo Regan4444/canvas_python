@@ -6,8 +6,8 @@ from datetime import datetime, timedelta, timezone
 # ==============================
 # CONFIG
 # ==============================
-DOMAIN = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+DOMAIN = "paste domain here"
+TOKEN = "paste token here"
 ROOT_ACCOUNT_ID = 1
 
 DAYS_BACK = 365
@@ -203,4 +203,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
