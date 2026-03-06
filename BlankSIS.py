@@ -2,7 +2,7 @@
 """
 List Canvas subaccounts that do NOT have an SIS ID (sis_account_id missing/blank).
 
-Hard-coded domain: https://grayson.instructure.com
+Hard-coded domain: (paste yours into CANVAS_DOMAIN
 Token is hard-coded (paste yours into TOKEN).
 Root account defaults to 1 (change ROOT_ACCOUNT_ID if needed).
 """
@@ -125,3 +125,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
