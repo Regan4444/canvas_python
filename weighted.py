@@ -10,11 +10,11 @@ from urllib.parse import urljoin
 # ==========================
 # CONFIGURATION (hard-coded)
 # ==========================
-BASE_URL = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+BASE_URL = "paste domain here"
+TOKEN = "paste token here"
 
 ACCOUNT_ID = 1          # Root or sub-account ID
-TERM_ID = 734         # <-- replace with the specific enrollment term ID you want
+TERM_ID = 000         # <-- replace with the specific enrollment term ID you want
 MIN_WEIGHT = 20.0       # Threshold in % (for groups or single assignments)
 OUTPUT_CSV = "weighted_20_with_assignments.csv"
 # ==========================
@@ -245,3 +245,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
