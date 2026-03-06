@@ -12,11 +12,11 @@ import requests
 # Hardcoded Canvas settings
 # ---------------------------
 
-BASE_URL = "https://grayson.instructure.com"       # your Canvas domain
-ACCESS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"            # replace with your Canvas API token
-USER_ID = "15368"                                  # numeric Canvas user ID
-START_TIME = "2025-08-01T00:00:00Z"                # ISO 8601 UTC start time
-END_TIME = "2025-10-23T23:59:59Z"                  # ISO 8601 UTC end time
+BASE_URL = "paste domain here"       # your Canvas domain
+ACCESS_TOKEN = "paste token here"            # replace with your Canvas API token
+USER_ID = "paste canvas user id here"                                  # numeric Canvas user ID
+START_TIME = "0000-00-01T00:00:00Z"                # ISO 8601 UTC start time
+END_TIME = "0000-00-23T23:59:59Z"                  # ISO 8601 UTC end time
 SESSION_GAP_MINUTES = 30                           # gap threshold to infer new session
 
 ISO_FMT = "%Y-%m-%dT%H:%M:%SZ"
@@ -250,3 +250,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
