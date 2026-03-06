@@ -1,8 +1,8 @@
 import os, csv, sys, time, requests
 from urllib.parse import urljoin
 
-BASE_URL      = os.getenv("CANVAS_BASE_URL", "https://grayson.instructure.com")
-TOKEN         = os.getenv("CANVAS_TOKEN",      "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU")
+BASE_URL      = os.getenv("CANVAS_BASE_URL", "paste domain here")
+TOKEN         = os.getenv("CANVAS_TOKEN",      "paste token here")
 ACCOUNT_ID    = int(os.getenv("CANVAS_ACCOUNT_ID", "1"))
 TERM_ID       = os.getenv("CANVAS_TERM_ID",    730)   # e.g. "123"
 TIMEOUT       = 30
@@ -127,4 +127,5 @@ def main():
     print("  unless your account setting ‘Restrict students from viewing courses after term/course end date’ is enabled.")
 
 if __name__ == "__main__":
+
     main()
