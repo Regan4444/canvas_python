@@ -2,7 +2,8 @@
 """
 Move all Canvas courses whose course_code starts with "HUMA" into subaccount ID 169,
 and VERIFY each move by re-reading the course and checking account_id.
-
+You will need to go into the script and edit the text as well as the sub account you wish to move the 
+class into.  Use "find text" in your IDE to search for HUMA and change it
 
 """
 
@@ -193,3 +194,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
