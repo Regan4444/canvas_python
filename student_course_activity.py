@@ -21,8 +21,8 @@ from typing import Any, Dict, List, Optional
 import requests
 
 # ====== EDIT THESE DEFAULTS ======
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"
+TOKEN = "paste token here"
 # =================================
 
 
@@ -265,3 +265,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
