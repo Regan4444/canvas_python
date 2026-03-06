@@ -4,8 +4,8 @@ import sys
 import requests
 from typing import Any, Dict, List, Optional, Tuple
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-CANVAS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"
+CANVAS_TOKEN = "paste token here"
 ROOT_ACCOUNT_ID = 1
 TIMEOUT = 30
 
@@ -219,3 +219,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
