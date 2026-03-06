@@ -7,12 +7,12 @@
 import requests
 
 # === Required Variables ===
-access_token = '4480~zG7VyXmWACG4enVUEAFCHrvakP7BNyyANzXExAQeU8n9wHz4aQPyhHwncJwuBEZn'
-course_id = 41183     # Replace with your Canvas course ID
-student_id = 64732    # Replace with the Canvas user ID of the student
+access_token = 'paste token here'
+course_id = 00000     # Replace with your Canvas course ID
+student_id = 00000    # Replace with the Canvas user ID of the student
 
 # === API Setup ===
-base_url = 'https://grayson.instructure.com'  # Replace with your Canvas base URL
+base_url = 'paste domain here'  # Replace with your Canvas base URL
 headers = {
     'Authorization': f'Bearer {access_token}'
 }
@@ -54,3 +54,4 @@ for assignment in graded_discussions:
         print(f"  Grade       : {grade}\n")
     else:
         print(f"- {assignment_name} (ID: {assignment_id}): Not submitted.\n")
+
