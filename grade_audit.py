@@ -22,8 +22,8 @@ from typing import Dict, Any, List, Optional, Tuple
 from urllib.parse import urlparse, parse_qs
 
 # ====== EDIT THESE DEFAULTS ======
-CANVAS_BASE_URL = "https://grayson.instructure.com"  # <- change if needed
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"                      # <- paste token
+CANVAS_BASE_URL = "paste domain here"  # <- change if needed
+TOKEN = "paste token here"                      # <- paste token
 # =================================
 
 
@@ -261,3 +261,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
