@@ -12,6 +12,7 @@ Features included (current state):
 - Course listing uses state[]=all to catch everything Canvas might count
 - Correct delete endpoint for subaccounts: /accounts/:root/sub_accounts/:id
 - Prints helpful error bodies (esp. 409 conflicts)
+- DRY_RUN variable switch allows you to see what will be moved if set to True.  Set it to False to actually move the classes and delete the sub
 """
 
 import sys
@@ -32,10 +33,10 @@ ROOT_ACCOUNT_ID = "1"
 
 
 
-SOURCE_SUBACCOUNT_ID = 165  # e.g. 18 or 107
-DEST_SUBACCOUNT_ID = 1083     # optional, e.g. 1082
+SOURCE_SUBACCOUNT_ID = 000  # e.g. Paste in the sub you want to pull classes from
+DEST_SUBACCOUNT_ID = 000     # optional, paste in the account you want to add the class to.
 
-# SAFETY SWITCH
+# SAFETY SWITCH - set this to True if you want to see what happens without changing anything the first time.  When you are ready, set it to False
 DRY_RUN = False
 
 # Log file
@@ -338,4 +339,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
