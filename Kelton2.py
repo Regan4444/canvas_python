@@ -2,10 +2,10 @@ import requests
 import csv
 
 # === CONFIGURATION ===
-ACCESS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-BASE_URL = "https://grayson.instructure.com/"
-COURSE_ID = "41183"
-USER_ID = "64732"
+ACCESS_TOKEN = "paste token here"
+BASE_URL = "paste domain here"
+COURSE_ID = "paste canvas course id"
+USER_ID = "paste canvas user ID"
 
 # === FILTER SETTINGS ===
 item_filter = ["pages", "assignments", "quizzes"]  # ← Filter for these path segments
@@ -65,3 +65,4 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
         ])
 
 print(f"✅ Filtered CSV file saved as: {csv_filename}")
+
