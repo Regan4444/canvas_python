@@ -10,11 +10,11 @@ import pytz
 # ---------------------------------------------------------
 # HARD-CODED CONFIGURATION SECTION
 # ---------------------------------------------------------
-BASE_URL = "https://grayson.instructure.com"   # Canvas domain
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"           # Canvas API token
-COURSE_ID = 45772                              # Course ID to check
-USER_ID = 52542                                # Student user ID
-DATE_TO_CHECK = "2025-10-19"                   # Local Central date to verify
+BASE_URL = "paste domain here"   # Canvas domain
+TOKEN = "paste token here"           # Canvas API token
+COURSE_ID = 00000                              # Course ID to check
+USER_ID = 00000                                # Student user ID
+DATE_TO_CHECK = "0000-00-00"                   # Local Central date to verify
 # ---------------------------------------------------------
 
 CENTRAL = pytz.timezone("America/Chicago")
@@ -214,3 +214,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
