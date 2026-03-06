@@ -3,11 +3,11 @@ import csv
 import requests
 
 # --------- CONFIGURATION ---------
-BASE_URL = "https://grayson.instructure.com"   # ex: https://grayson.instructure.com
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"                 # <---- Hard-code your token here
+BASE_URL = "paste domain here"   # ex: https://grayson.instructure.com
+API_TOKEN = "paste token here"                 # <---- Hard-code your token here
 
-ROOT_ACCOUNT_ID = 1                                # Canvas root account ID (usually 1)
-ENROLLMENT_TERM_ID = 729                          # or set to a term ID (ex: 202510)
+ROOT_ACCOUNT_ID = 0                                # Canvas root account ID (usually 1)
+ENROLLMENT_TERM_ID = 000                          # or set to a term ID (ex: 202510)
 DEFAULT_SCHEME_ID = 0                              # change this if your Canvas default scheme has another ID
 
 OUTPUT_CSV = "courses_using_canvas_default_scheme.csv"
@@ -151,3 +151,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
