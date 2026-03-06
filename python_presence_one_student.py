@@ -37,8 +37,8 @@ import requests
 #TOKEN = os.getenv("CANVAS_TOKEN", "")
 
 # Option B (quick start): uncomment and fill if you prefer hard-coding
-BASE_URL = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+BASE_URL = "paste domain here"
+TOKEN = "paste token here"
 
 RATE_SLEEP = 0.15  # be kind to rate limits
 
@@ -319,3 +319,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
