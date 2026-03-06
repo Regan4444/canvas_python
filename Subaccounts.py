@@ -13,8 +13,8 @@ from urllib.parse import urljoin
 # ============================
 # 🔧 CONFIGURATION (EDIT THESE)
 # ============================
-CANVAS_DOMAIN = "grayson.instructure.com"  # e.g., "canvas.yourschool.edu"
-ACCESS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_DOMAIN = "paste domain here"  # e.g., "canvas.yourschool.edu"
+ACCESS_TOKEN = "paste token here"  #  paste in your access token
 ROOT_ACCOUNT_ID = 1   # typically 1 for the main/root account
 OUTPUT_FILE = "subaccounts.csv"
 # ============================
@@ -93,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
