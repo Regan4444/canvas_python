@@ -1,7 +1,7 @@
 import requests
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"
+API_TOKEN = "paste token here"
 ACCOUNT_ID = "1"  # try 1 first
 
 url = f"{CANVAS_BASE_URL}/api/v1/accounts/{ACCOUNT_ID}/sis_imports"
@@ -11,4 +11,5 @@ print("URL:", r.url)
 print("HTTP:", r.status_code)
 print("Content-Type:", r.headers.get("Content-Type"))
 print("Body (first 500 chars):")
+
 print(r.text[:500])
