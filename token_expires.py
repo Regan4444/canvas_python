@@ -2,8 +2,8 @@ import requests
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-CANVAS_BASE_URL = "https://grayson.instructure.com"
-API_TOKEN = "4480~PturLY3URL2MCx9vzthmHUU488c4XDEcKRkU27mzUXPGT4M9uP2HmGZ6K79xTzC7"     # your monitoring token (yours, not Robbie’s)
+CANVAS_BASE_URL = "paste domain here"
+API_TOKEN = "paste token here"     # your monitoring token 
 ACCOUNT_ID = "1"
 MAX_AGE_HOURS = 6             # set to whatever makes sense
 
@@ -27,4 +27,5 @@ created_central = created.astimezone(CENTRAL).strftime("%Y-%m-%d %H:%M:%S %Z")
 print(f"Latest SIS import: ID {latest['id']} at {created_central} ({age_hours:.2f} hours ago)")
 
 if age_hours > MAX_AGE_HOURS:
+
     raise SystemExit(f"ALERT: SIS imports are stale (> {MAX_AGE_HOURS} hours).")
