@@ -5,11 +5,11 @@ from zoneinfo import ZoneInfo
 # ------------------------------------------------
 # CONFIG
 # ------------------------------------------------
-API_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-BASE_URL = "https://grayson.instructure.com"
+API_TOKEN = "paste token here"
+BASE_URL = "paste domain here"
 
-COURSE_ID = 44274
-STUDENT_SIS_ID = "10112753097"  # optional but recommended
+COURSE_ID = 00000  #paste course id here
+STUDENT_SIS_ID = "000000000"  # optional but recommended
 
 HEADERS = {"Authorization": f"Bearer {API_TOKEN}"}
 
@@ -136,4 +136,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
