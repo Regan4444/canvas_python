@@ -12,9 +12,9 @@ import requests
 # ----------------------------
 # CONFIGURATION
 # ----------------------------
-CANVAS_BASE = os.getenv("CANVAS_BASE", "https://grayson.instructure.com")
-TOKEN       = os.getenv("CANVAS_TOKEN", "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU")
-COURSE_ID   = os.getenv("COURSE_ID", "46246")
+CANVAS_BASE = os.getenv("CANVAS_BASE", "paste domain here")
+TOKEN       = os.getenv("CANVAS_TOKEN", "paste token here")
+COURSE_ID   = os.getenv("COURSE_ID", "paste course id here")
 
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
@@ -96,3 +96,4 @@ print(f"\n✅ Done.")
 print(f"   Updated pages:     {updated}")
 print(f"   Skipped (already): {skipped}")
 print(f"   Unpublished:       {unpublished}")
+
