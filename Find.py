@@ -19,9 +19,9 @@ import requests
 # =========================
 # CONFIG (EDIT THESE)
 # =========================
-CANVAS_BASE_URL = "https://grayson.instructure.com"  # <-- change if needed
+CANVAS_BASE_URL = "paste domain here"  # <-- change if needed
 ROOT_ACCOUNT_ID = 1  # root account id for account-based user search
-CANVAS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"  # <-- hard-coded token (as requested)
+CANVAS_TOKEN = "paste token here"  # <-- hard-coded token (as requested)
 # =========================
 
 
@@ -295,3 +295,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
