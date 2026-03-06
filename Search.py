@@ -1,13 +1,13 @@
 import requests
 
 # === Required Variables ===
-access_token = '4480~zG7VyXmWACG4enVUEAFCHrvakP7BNyyANzXExAQeU8n9wHz4aQPyhHwncJwuBEZn'
-course_id = 41380  # Replace with your Canvas course ID
-assignment_id = 3024657  # Replace with the assignment ID
-student_id = 21769  # Replace with the Canvas user ID of the student
+access_token = 'paste token here'
+course_id = 00000  # Replace with your Canvas course ID
+assignment_id = 000000  # Replace with the assignment ID
+student_id = 00000  # Replace with the Canvas user ID of the student
 
 # === API Setup ===
-base_url = 'https://grayson.instructure.com'  # Replace with your Canvas base URL
+base_url = 'paste domain here'  # Replace with your Canvas base URL
 headers = {
     'Authorization': f'Bearer {access_token}'
 }
@@ -28,3 +28,4 @@ if response.status_code == 200:
         print(f"Student {student_id} has NOT submitted the assignment.")
 else:
     print(f"Failed to retrieve submission: {response
+
