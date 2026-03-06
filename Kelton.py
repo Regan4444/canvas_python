@@ -3,8 +3,8 @@ import csv
 import datetime
 
 # === CONFIGURATION ===
-ACCESS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
-BASE_URL = "https://grayson.instructure.com/"
+ACCESS_TOKEN = "paste token here"
+BASE_URL = "paste domain here"
 COURSE_ID = "41380"  # Replace with your course ID
 USER_ID = "21769"    # Replace with the student's Canvas user ID
 
@@ -59,3 +59,4 @@ with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
         ])
 
 print(f"✅ CSV file saved as: {csv_filename}")
+
