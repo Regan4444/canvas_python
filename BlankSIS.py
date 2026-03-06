@@ -12,8 +12,8 @@ import time
 import requests
 
 # ====== HARD-CODE THESE ======
-CANVAS_DOMAIN = "https://grayson.instructure.com"
-TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"  # <-- paste token
+CANVAS_DOMAIN = "paste domain here"
+TOKEN = "paste token here"  # <-- paste token
 ROOT_ACCOUNT_ID = 1  # <-- change if your root account is not 1
 # ============================
 
@@ -123,4 +123,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
