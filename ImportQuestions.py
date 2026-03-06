@@ -8,11 +8,11 @@ import os, time, zipfile, io, requests
 BASE  = "paste domain here"
 TOKEN = "paste token here"
 
-COURSE_ID = 43637
-QUIZ_ID   = 239874
+COURSE_ID = 000000  #  paste in the course ID you wish to edit
+QUIZ_ID   = 00000  #  paste in the quiz ID you wish to import into questions banks
 
 # If both are set, Canvas gives priority to QUESTION_BANK_ID.
-QUESTION_BANK_NAME = "Test Import"
+QUESTION_BANK_NAME = "Test Import - Edit this"
 QUESTION_BANK_ID   = 700301   # try None if you want to force name-based bank
 
 S = requests.Session()
@@ -124,4 +124,5 @@ if __name__ == "__main__":
     )
     print(f"[done] import attempted into "
           f"{'bank ID '+str(QUESTION_BANK_ID) if QUESTION_BANK_ID else 'bank '+repr(QUESTION_BANK_NAME)}")
+
 
