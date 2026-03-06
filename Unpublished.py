@@ -17,7 +17,7 @@ import requests
 
 # ============================================================
 # HARD-CODE YOUR TOKEN HERE:
-CANVAS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_TOKEN = "paste token here"
 # ============================================================
 
 
@@ -195,3 +195,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
