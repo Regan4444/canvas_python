@@ -21,8 +21,8 @@ import requests
 # =========================
 # CONFIG (EDIT THESE)
 # =========================
-CANVAS_BASE_URL = "https://grayson.instructure.com"  # e.g. https://yourcollege.instructure.com
-ACCESS_TOKEN = "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU"
+CANVAS_BASE_URL = "paste domain here"  # e.g. https://yourcollege.instructure.com
+ACCESS_TOKEN = "paste token here"
 ROOT_ACCOUNT_ID = 1  # change if your root account id is not 1
 OUTPUT_CSV = "canvas_admins_by_subaccount.csv"
 
@@ -216,4 +216,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+
     raise SystemExit(main())
