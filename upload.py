@@ -7,10 +7,10 @@ import requests
 # ----------------------------
 # CONFIGURATION
 # ----------------------------
-CANVAS_BASE = os.getenv("CANVAS_BASE", "https://grayson.instructure.com")
-TOKEN       = os.getenv("CANVAS_TOKEN", "4480~yTwt773FmtHx7ZxcQ8AB3nLTG8uZnfAvANWQVfuyacB2DV3mtzrAzWPBzZfKHLVU")
-COURSE_ID   = os.getenv("COURSE_ID", "38907")
-FILE_PATH   = "6.jpg"  # path to the file you want to upload
+CANVAS_BASE = os.getenv("CANVAS_BASE", "paste domain here")
+TOKEN       = os.getenv("CANVAS_TOKEN", "paste token here")
+COURSE_ID   = os.getenv("COURSE_ID", "000000")
+FILE_PATH   = "file.ext"  # path to the file you want to upload
 TARGET_FOLDER = "TestFolder"     # Canvas folder name (existing or new)
 
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
@@ -50,3 +50,4 @@ print("✅ Upload complete!")
 print(f"Filename: {result['display_name']}")
 print(f"File ID:  {result['id']}")
 print(f"URL:      {result['url']}")
+
